@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+}
+.main {
+    margin: auto;
+    width: 80vw;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    height: 4vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.right-nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+#link {
+    letter-spacing: 2px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+#link:hover {
+    cursor: pointer;
+}
+
+#link:active {
+    color: gray;
+}
+
+.architects {
+    position: relative;
+    z-index: -1;
+    width: 80vw;
+    height: 50vh;
+    background-image: url("assets/images/architect.jpg");
+    background-position: center;
+    background-color: aqua;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.images {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.images>div {
+    margin-top: 10px;
+    width: 19vw;
+    height: 19vh;
+    display: inline-block;
+}
+
+.image-1 {
+    background-image: url("assets/images/house2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-2 {
+    background-image: url("assets/images/house3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-3 {
+    background-image: url("assets/images/house4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-4 {
+    background-image: url("assets/images/house5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.teams {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.teams>div {
+    width: 19vw;
+    height: 19vh;
+}
+
+.team-image {
+    width: 19vw;
+    height: 19vh;
+}
+
+.btn-contact {
+    background-color: gainsboro;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.btn-contact:hover {
+    cursor: pointer;
+}
+
+.btn-contact:active {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.input {
+    margin: 7px 0px;
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid darkgray;
+}
+
+.message {
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.message:hover {
+    cursor: pointer;
+}
+
+.message:active {
+    background-color: gainsboro;
+    color: black;
+    border: 1px solid darkgrey;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.map-image {
+    width: 80vw;
+    height: auto;
+    margin-top: 35px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+h4,
+p {
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: large;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+h6 {
+    margin-top: -8px;
+    margin-bottom: -2px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#about,
+#contact,
+#images {
+    margin-top: 60px;
+}
+.para{
+    padding-bottom: 0px;
+}
+.last{
+    padding-bottom: 0px;
+}
